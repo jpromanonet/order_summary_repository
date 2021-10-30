@@ -266,4 +266,53 @@
         color: var(--desatured-blue);
         font-weight: 400;
     }
+
+    .button_component {
+        display: flex;
+        flex-direction: column;
+
+        width: 80%;
+        height: 100px;
+    }
+
+    #proceed {
+        font-weight: 700;
+        background-color: var(--bright-blue);
+        color: var(--very-pale-blue);
+
+        height: 35%;
+        border: none;
+        border-radius: 10px;
+
+        margin-bottom: 2px;
+    }
+
+    #proceed:hover {
+        background-color: var(--dark-blue);
+    }
+
+    #cancel {
+        font-weight: 700;
+        background-color: var(--very-pale-blue);
+        color: var(--desatured-blue);
+
+        border: none;
+        height: 35%;
+        border-radius: 10px;
+    }
+
+    #cancel:hover {
+        background-color: var(--dark-blue);
+        color: var(--very-pale-blue);
+    }
+
+    .attribution a {
+        padding-top: 5px;
+        font-size: 11px;
+        text-align: center;
+    }
+
+    .attribution a {
+        color: hsl(228, 45%, 44%);
+    }
 }
